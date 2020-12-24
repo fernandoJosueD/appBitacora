@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    tools:context=".pantallaOpcion">
+
+    <LinearLayout
+        android:id="@+id/botones_de_fechas"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="2dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSalir">
+
+        <TextView
+            android:id="@+id/textLicor"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:background="@drawable/degradado"
+            android:gravity="center|center_vertical"
+            android:text="ingiere licor"
+            android:textColor="#00FFFFFF"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/textejerci"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/degradado"
+            android:gravity="center|center_vertical"
+            android:text="ejercicio"
+            android:textColor="#00FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textimcBase"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/degradado"
+            android:gravity="center"
+            android:text="imc"
+            android:textColor="#11FFFFFF"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textenferm"
+            android:layout_width="170dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/degradado"
+            android:gravity="center|center_vertical"
+            android:text="encuesta"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewSalir"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:background="@drawable/btn_menu"
+        android:gravity="center"
+        android:text="Recomendaciones"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10259918" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="205dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="59dp" />
+
+    <Button
+        android:id="@+id/btnInformacion"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/btn_menu"
+        android:text="generar resultado"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btninfoali"
+        android:layout_width="160dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="2dp"
+        android:background="@drawable/btn_menu"
+        android:text="mas informacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+
+    <TableLayout
+        android:id="@+id/tabla_Resultados"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/des1"
+                android:layout_width="127dp"
+                android:layout_height="10dp"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="#00FFFFFF"
+                android:textSize="6sp" />
+
+            <TextView
+                android:id="@+id/alm1"
+                android:layout_width="134dp"
+                android:layout_height="10dp"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="#00FFFFFF"
+                android:textSize="6sp" />
+
+            <TextView
+                android:id="@+id/cen1"
+                android:layout_width="143dp"
+                android:layout_height="10dp"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="#00FFFFFF"
+                android:textSize="6sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/des2"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="#00FFFFFF"
+                android:textSize="6sp" />
+
+            <TextView
+                android:id="@+id/alm2"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="#00FFFFFF"
+                android:textSize="6sp" />
+
+            <TextView
+                android:id="@+id/cen2"
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"
+                android:gravity="center|center_horizontal"
+                android:text="TextView"
+                android:textColor="#00FFFFFF"
+                android:textSize="6sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="110dp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/datosSecundarios"
+        android:layout_width="407dp"
+        android:layout_height="568dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/transparente_redondo"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline24">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            app:layout_constraintBottom_toTopOf="@+id/guideline3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline24">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textre5"
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/com_facebook_button_background"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textre6"
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/com_facebook_button_background"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textre7"
+                    android:layout_width="400dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/com_facebook_button_background"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5sp">
+
+                <TextView
+                    android:id="@+id/textre1"
+                    android:layout_width="400dp"
+                    android:layout_height="90dp"
+                    android:background="#FDFDFD"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5sp">
+
+                <TextView
+                    android:id="@+id/textre2"
+                    android:layout_width="400dp"
+                    android:layout_height="90dp"
+                    android:background="#FDFDFD"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5sp">
+
+                <TextView
+                    android:id="@+id/textre3"
+                    android:layout_width="400dp"
+                    android:layout_height="90dp"
+                    android:background="#FDFDFD"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="5sp">
+
+                <TextView
+                    android:id="@+id/textre4"
+                    android:layout_width="400dp"
+                    android:layout_height="90dp"
+                    android:background="#FDFDFD"
+                    android:padding="4dp"
+                    android:text="aun no hay datos"
+                    android:textColor="#606060"
+                    android:textSize="14sp" />
+            </TableRow>
+
+        </TableLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

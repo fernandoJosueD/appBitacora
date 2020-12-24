@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Mostrar.imc"></activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".Scrollinginformacion"
+            android:label="@string/title_activity_scrollinginformacion"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mostrar.mostrarInfoBit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Mostrar.mostrarInfoPersona"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bitac.setBitacora"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inserts.setInfoPersona"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MenuIncio"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inserts.updateSetPersona"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".inserts.setPersona"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".pantallaOpcion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Activity_sing_up"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

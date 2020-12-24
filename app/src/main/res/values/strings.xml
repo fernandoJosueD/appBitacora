@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Bitacora Alimenticia</string>
+    <string name="llamada_a_metodo">LLAMADACLASE</string>
+
+    <string name="iniciar">INICIAR</string>
+    <string name="correo">Email</string>
+    <string name="secion">Login</string>
+    <string name="aperturar_secion">Sigup</string>
+    <string name="title_activity_scrollinginformacion">informacion alimenticia</string>
+    <string name="large_text">
+        "Los alimentos.\n\n"
+
+        "Los alimentos son todos los productos naturales o industrializados que consumimos para cubrir una necesidad fisiológica (hambre)."
+        "Los nutrientes son sustancias que se encuentran dentro de los alimentos y que el cuerpo necesita para realizar diferentes funciones y mantener la salud. Existen cinco tipos de nutrientes llamados: Proteínas o Prótidos, Grasas o Lípidos, Carbohidratos o Glúcidos, Vitaminas y Minerales.\n"
+
+
+        "  \n\n"
+
+        "LOS NUTRIENTES.\n\n"
+
+        "Proteínas: Son los ladrillos necesarios para crecer y reparar daños en el cuerpo. \n"
+        "Se encuentran en las carnes (de res, aves, de cacería), pescado, mariscos, crustáceos, huevos, leche, quesos, embutidos (mortadela, salchichas, salchichón), granos como las caraotas, frijoles, arvejas, lentejas. \n\n"
+        "Carbohidratos: Nos dan energía y calor para movernos y desarrollar todas las actividades diarias. Son de origen vegetal. \n"
+        "Se encuentran en los cereales: maíz, trigo, arroz, sorgo y sus productos (harinas, pastas) tubérculos o verduras: papa, ñame, apio, yuca, ocumo, ocumo chino, mapuey, batata; plátano; azúcar (blanca o morena), miel y papelón, granos como las caraotas de todos los colores, arvejas, lentejas, garbanzos, frijoles, quinchonchos. \n\n"
+        "Grasas.\n"
+        "Son la fuente más concentrada de energía para nuestro cuerpo y cerebro. Participan en diferentes funciones específicas y forman parte de los tejidos del cuerpo y de algunas vitaminas y hormonas. Son fuente de calorías para los niños, pero los adultos deben consumirla con moderación. "
+        "Se encuentran en las carnes rojas, piel del pollo, leche, mantequilla y queso, aceites vegetales (de girasol, maíz, ajonjolí, algodón), margarina, aguacate, aceitunas, algunas semillas como el maní, merey, pistacho, almendras, nuez.\n\n"
+        "Vitaminas.\n"
+        "Ellas son las vitaminas A, D, E, K, C, complejo B y el ácido Fólico."
+        "Cumplen funciones esenciales para el organismo. Ayudan en el proceso de transformación de energía y favorecen el sistema de defensa del cuerpo contra las enfermedades. \n"
+        "Se encuentran en casi todos los alimentos en especial en las frutas, hortalizas y alimentos de origen animal. \n\n"
+
+        "Minerales \n"
+
+        "Entre los principales minerales se encuentran: calcio, hierro, yodo y el zinc. "
+        "Ellos participan en diversas funciones específicas y forman parte de los tejidos del cuerpo (Ej.: el calcio forma y mantiene los huesos y dientes; el hierro forma parte de la sangre). Los minerales intervienen en el crecimiento, reproducción del ser humano, la función muscular, entre otros.\n"
+        "Se encuentran principalmente en los alimentos de origen animal. \n\n"
+
+        "Fibra\n"
+        "La fibra ayuda a expulsar las heces con facilidad, previene el cáncer de colon y reduce el colesterol en la sangre. "
+        "Se encuentra en los alimentos de origen vegetal como hortalizas (zanahoria, tomates, lechugas, pepino), frutas (melón, patilla, naranja, manzana), granos (caraotas, arvejas, lentejas, frijoles), verduras (yuca, apio, nañe, batata) y cereales integrales.\n\n"
+
+
+        "Alimentos plásticos o reparadores: Contienen en mayor cantidad proteínas \n"
+        "La leche, carnes (de res, aves, cacería), huevos, pescado, embutidos, queso, yogurt.\n\n"
+
+        "Alimentos reguladores: Contienen en mayor cantidad vitaminas y minerales. \n"
+        "Las frutas (melón, patilla, naranja, manzana) y las hortalizas (lechuga, zanahoria, repollo, tomate).\n \n"
+
+        "Alimentos energéticos: Contienen en mayor cantidad carbohidratos y grasas."
+        "Los cereales (maíz, arroz, trigo, sorgo), granos (caraotas, frijoles, lentejas), tubérculos (también llamadas verduras como ocumo, papa, yuca), plátano, aceites, margarina, mantequilla, mayonesa. \n \n"
+
+    </string>
+    <string name="action_settings">Settings</string>
+</resources>
