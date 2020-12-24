@@ -2186,7 +2186,7 @@ class setBitacora : AppCompatActivity() {
                     "por lo que se recomienda ingerir frutas o ensaladas para evitar el exceso de productos que dañen la salud a futuro. "
 
             var map = mutableMapOf<String, Any>()
-            map ["comida"] =  recomendacion
+            map ["comida"] = recomendacion
 
             FirebaseFirestore.getInstance()
                 .collection("filtroc")
